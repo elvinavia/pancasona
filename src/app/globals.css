@@ -1,21 +1,18 @@
 @import "tailwindcss";
 
-/* ===== Custom CSS Variables ===== */
 :root {
-  --background: #FDE7F3; /* ungu muda / pink soft */
-  --foreground: #1A1A1A; /* teks gelap */
+  --background: #FDE7F3;
+  --foreground: #1A1A1A; 
   --font-sans: Arial, Helvetica, sans-serif;
 }
 
-/* Dark mode */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #271236; /* dark background */
-    --foreground: #FDE7F3; /* teks ungu muda di dark mode */
+    --background: #271236;
+    --foreground: #FDE7F3; 
   }
 }
 
-/* Body menggunakan CSS variables */
 body {
   background-color: var(--background);
   color: var(--foreground);
@@ -23,12 +20,10 @@ body {
   transition: background-color 0.3s, color 0.3s;
 }
 
-/* Headings */
 h1, h2, h3, h4, h5, h6 {
   color: var(--foreground);
 }
 
-/* Links */
 a {
   text-decoration: none;
   color: inherit;
@@ -39,17 +34,14 @@ a:hover {
   transition: all 0.3s;
 }
 
-/* Buttons */
 button {
   cursor: pointer;
 }
 
-/* Smooth scroll */
 html {
   scroll-behavior: smooth;
 }
 
-/* Optional: style scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
 }
