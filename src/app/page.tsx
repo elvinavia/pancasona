@@ -14,7 +14,7 @@ export default function Home() {
 
       <h1 className="text-3xl font-bold mt-4">Selamat Datang</h1>
       <p className="mt-2 text-gray-600">
-        Website resmi Karang Taruna Pancasona RW 05 Lowokwaru.
+        Website Karang Taruna Pancasona RW 05 Lowokwaru.
       </p>
 
     </section>
