@@ -16,19 +16,27 @@ const galleryImages = [
 
 export default function Gallery() {
   return (
-    <section className="p-4">
-      <h2 className="text-2xl font-bold mb-4 text-center">Gallery Anak Karang Taruna</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+    <section className="p-8 bg-gradient-to-b from-purple-900 to-black min-h-screen text-white">
+      <h2 className="text-4xl font-extrabold text-yellow-400 text-center mb-12 border-b-4 border-yellow-500 inline-block">
+        Gallery Anak Karang Taruna
+      </h2>
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {galleryImages.map((img, i) => (
-          <div key={i} className="border rounded overflow-hidden shadow hover:scale-105 transition-transform">
+          <div
+            key={i}
+            className="bg-white/10 rounded-xl overflow-hidden shadow-lg hover:scale-105 hover:shadow-yellow-500/40 transition duration-300"
+          >
             <Image
               src={img.src}
               alt={img.alt}
-              width={300}
-              height={100}
-              className="object-cover w-full h-full"
+              width={400}
+              height={250}
+              className="object-cover w-full h-56"
             />
-            <p className="text-center p-2 font-medium bg-gray-100">{img.title}</p>
+            <p className="text-center p-3 font-medium text-gray-200 bg-black/30">
+              {img.title}
+            </p>
           </div>
         ))}
       </div>
