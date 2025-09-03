@@ -12,7 +12,7 @@ export default function Home() {
         className="mx-auto"
       />
 
-      <h1 className="text-3xl font-bold mt-4">Karang Taruna PANCASONA</h1>
+      <h1 className="text-3xl font-bold mt-4">KARANG TARUNA PANCASONA</h1>
       <br />
 
       <p className="mt-2 text-white-700">
