@@ -3,7 +3,7 @@ export default function AboutPage() {
     <section className="space-y-8 p-8 bg-gradient-to-b from-purple-900 to-black rounded-2xl shadow-lg text-white max-w-4xl mx-auto my-10">
 
       <h2 className="text-4xl font-extrabold text-yellow-400 border-b-4 border-yellow-500 pb-3">
-        Tentang Karang Taruna "PANCASONA"
+        Tentang Karang Taruna PANCASONA
       </h2>
 
       <p className="leading-relaxed text-gray-200">
@@ -14,7 +14,7 @@ export default function AboutPage() {
       </p>
 
       <p className="leading-relaxed text-gray-200">
-        "PANCASONA" di tengah hiruk-pikuk kehidupan, para pemuda RW 05 Lowokwaru bangkit dengan kompak 
+        PANCASONA di tengah hiruk-pikuk kehidupan, para pemuda RW 05 Lowokwaru bangkit dengan kompak 
         dan semangat membara yang tak akan pernah padam. Bukan hanya pewaris, kami adalah pejuang harapan, 
         dengan hati yang tulus, menjalin persatuan dan impian. Pesona Pemuda yang tak pernah pudar, karena 
         kami adalah cahaya di tengah zaman.
@@ -38,3 +38,4 @@ export default function AboutPage() {
     </section>
   );
 }
+
